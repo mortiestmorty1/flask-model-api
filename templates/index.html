@@ -33,7 +33,7 @@
                 month: parseFloat(document.getElementById('month').value)
             };
 
-            fetch('http://localhost:5001/predict', {  // Replace with your API URL when deployed
+            fetch('http://localhost:5000/predict', {  // Replace with your API URL when deployed
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
