@@ -4,7 +4,10 @@
     {
       "src": "api/app.py",
       "use": "@vercel/python",
-      "config": { "maxLambdaSize": "50mb" }
+      "config": {
+        "maxLambdaSize": "50mb",
+        "runtime": "python3.10"
+      }
     }
   ],
   "routes": [
@@ -12,10 +15,5 @@
       "src": "/predict",
       "dest": "api/app.py"
     }
-  ],
-  "functions": {
-    "api/index.py": {
-      "runtime": "python3.10"
-    }
-  }
+  ]
 }
