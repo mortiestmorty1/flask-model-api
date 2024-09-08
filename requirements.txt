@@ -4,4 +4,4 @@ joblib         # joblib 1.2.0 is compatible with Python 3.12.
 requests      # requests 2.28.2 is compatible with Python 3.12.
 numpy      # Updated to a version that ensures compatibility with Python 3.12.
 pandas         # Updated to a version that ensures compatibility with Python 3.12.
-#scikit-learn==1.2.2   # scikit-learn 1.2.2 is compatible with Python 3.12.
+scikit-learn   # scikit-learn 1.2.2 is compatible with Python 3.12.
