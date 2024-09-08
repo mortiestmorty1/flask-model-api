@@ -1,6 +1,6 @@
 Flask==3.0.3
 Flask-Cors==5.0.0
-scikit-learn==1.2.2  # Use only-binary installation
+scikit-learn==1.3.0  # Use only-binary installation
 numpy==1.24.2  # Version compatible with scikit-learn
 scipy==1.10.0  # A version that balances size and functionality
 joblib==1.2.0  # Slightly newer version if needed
