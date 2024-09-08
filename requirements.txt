@@ -8,6 +8,6 @@ joblib==1.4.2
 MarkupSafe==2.1.5
 numpy==1.21.0             # Slimmer version, test compatibility
 scikit-learn==0.24.0      # Slimmer version
-scipy==1.7.0              # Lighter version, test compatibility
+scipy == 1.7.0              # Lighter version, test compatibility
 threadpoolctl==3.5.0
 Werkzeug==2.2.3           # Downgrade for smaller version size
